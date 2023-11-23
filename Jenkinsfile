@@ -9,11 +9,11 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
-      steps {
-        git 'https://github.com/zedxlucian/demo-react-app.git'
-      }
-    }
+//    stage('Checkout Source') {
+//      steps {
+//        git 'https://github.com/zedxlucian/demo-react-app.git'
+//      }
+//    }
 
     stage('Build image') {
       steps{
