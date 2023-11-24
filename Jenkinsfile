@@ -25,7 +25,7 @@ pipeline {
 
     stage('Pushing Image') {
       environment {
-               registryCredential = 'dockerhub-zedxlucian'
+               registryCredential = 'dockerhub-slydien'
            }
       steps{
         script {
